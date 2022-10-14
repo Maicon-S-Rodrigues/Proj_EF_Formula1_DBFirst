@@ -120,6 +120,6 @@ namespace Proj_EF_Formula1_DBFirst.Controllers
                 Equipe activeTeam = context.Equipe.First(search => search.nome == teamName);
                 return activeTeam;
             }
-        }
+        } 
     }
 }
